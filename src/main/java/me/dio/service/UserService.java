@@ -1,4 +1,4 @@
-package main.java.me.dio.service;
+package me.dio.service;
 
 import me.dio.domain.model.User;
 

@@ -1,4 +1,4 @@
-package main.java.me.dio.controller;
+package me.dio.controller;
 
 import me.dio.domain.model.User;
 import me.dio.service.UserService;
@@ -20,8 +20,8 @@ public class UserController {
 
     @GetMapping("/{id}")
     public ResponseEntity<User> findById(@PathVariable Long id) {
-    var user = userService.findById(id);
-    return ResponseEntity.ok(user);
+       var user = userService.findById(id);
+       return ResponseEntity.ok(user);
     }
 
     @PostMapping
